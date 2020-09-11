@@ -1,0 +1,11 @@
+#include <iostream>
+using namespace std;
+
+int main() 
+{
+    int N,res;
+    cin>>N;
+    res=N>>1;
+    cout<<res;
+    return 0;
+}
