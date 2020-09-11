@@ -1,0 +1,18 @@
+#include <iostream>
+using namespace std;
+
+int main() 
+{
+    int N1,N2,res;
+    cin>>N1>>N2;
+    res=N1^N2;
+    if(res==0)
+    {
+        cout<<"Yes";
+    }
+    else
+    {
+        cout<<"No";
+    }
+    return 0;
+}
