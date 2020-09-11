@@ -1,0 +1,14 @@
+#include <iostream>
+#include<bits/stdc++.h>
+using namespace std;
+
+int main() 
+{
+    int N,x,y,z;
+    cin>>N;
+    x=(~N)+1;
+    y=N&x;
+    z=log2(y)+1;
+    cout<<z;
+    return 0;
+}
