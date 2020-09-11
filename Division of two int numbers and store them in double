@@ -1,0 +1,13 @@
+#include <iostream>
+#include<iomanip>
+using namespace std;
+
+int main() 
+{
+    int N1,N2;
+    double R;
+    cin>>N1>>N2;
+    R=(double)N1/N2;
+    cout<<setprecision(5)<<fixed<<R;
+    return 0;
+}
