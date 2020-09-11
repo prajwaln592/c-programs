@@ -1,0 +1,13 @@
+#include <iostream>
+#include<bits/stdc++.h>
+using namespace std;
+
+int main() 
+{
+    int N,K,res;
+    cin>>N;
+    K=(int)(log2(N));
+    res=(int)(pow(2,K));
+    cout<<res;
+    return 0;
+}
