@@ -1,0 +1,18 @@
+#include <iostream>
+using namespace std;
+
+int main() 
+{
+    int N,p1,p2,res,x,y,z,k,l,n;
+    cin>>N>>p1>>p2>>n;
+    x=(N>>p1)&((1<<n)-1);
+    y=(N>>p2)&((1<<n)-1);
+    z=x^y;
+    k=(z<<p1)|(z<<p2);
+    l=N^k;
+    cout<<l;
+    return 0;
+    
+    
+    
+}
