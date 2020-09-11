@@ -1,0 +1,15 @@
+#include <iostream>
+#include<iomanip>
+using namespace std;
+
+int main() 
+{
+    double P,T;
+    double R,SI;
+    cin>>P;
+    cin>>T;
+    cin>>R;
+     SI =(P*T*R)/100;
+    cout<<setprecision(2)<<fixed<<SI;
+    return 0;
+}
