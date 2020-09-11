@@ -1,0 +1,15 @@
+#include <iostream>
+#include<bits/stdc++.h>
+using namespace std;
+
+int main() 
+{
+    int bits,n,comp;
+    cin>>n;
+    bits=floor(log2(n)+1);
+    comp=(((1<<bits)-1)^n);
+    cout<<comp;
+    return 0;
+    
+    
+}
