@@ -1,0 +1,12 @@
+#include <iostream>
+#include<bits/stdc++.h>
+using namespace std;
+
+int main() 
+{
+    int N,K,res;
+    cin>>N>>K;
+    res=(1<<(K-1)|N);
+    cout<<res;
+    return 0;
+}
