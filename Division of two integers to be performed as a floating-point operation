@@ -1,0 +1,13 @@
+#include <iostream>
+#include<iomanip>
+using namespace std;
+
+int main() 
+{
+    int N1,N2;
+    float R;
+    cin>>N1>>N2;
+   R= (float)N1/(float)N2;
+    cout<<setprecision(6)<<fixed<<R;
+    return 0;
+}
