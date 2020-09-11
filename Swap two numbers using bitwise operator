@@ -1,0 +1,16 @@
+#include <iostream>
+#include<bits/stdc++.h>
+using namespace std;
+
+int main() 
+{
+    int N1,N2,x,y,z;
+    cin>>N1>>N2;
+    x=N1^N2;
+    y=x^N2;
+    z=x^y;
+    cout<<z;
+    cout<<endl;
+    cout<<y;
+    return 0;
+}
