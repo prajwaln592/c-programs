@@ -1,0 +1,11 @@
+#include <iostream>
+using namespace std;
+
+int main() 
+{
+    int N,K,P,res;
+    cin>>N>>K>>P;
+    res=(((1<<K)-1)&(N>>(P-1)));
+    cout<<res;
+    return 0;
+}
