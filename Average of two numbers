@@ -1,0 +1,12 @@
+#include <iostream>
+#include<iomanip>
+using namespace std;
+
+int main() 
+{
+    long double N1,N2;
+    cin>>N1>>N2;
+    double R = (N1+N2)/2;
+    cout<<setprecision(2)<<fixed<<R;
+        return 0;
+}
