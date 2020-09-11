@@ -1,0 +1,12 @@
+#include <iostream>
+#include<bits/stdc++.h>
+using namespace std;
+
+int main() 
+{
+    int N1,N2,add;
+    cin>>N1>>N2;
+    add=N1-~N2-1;
+    cout<<add;
+    return 0;
+}
