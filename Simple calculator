@@ -1,0 +1,41 @@
+#include <iostream>
+#include<iomanip>
+using namespace std;
+
+int main() 
+{
+    double N1,N2,k,l,m,n;
+    char option;
+    cin>>N1>>N2;
+    cin>>option;
+    switch(option)
+    {
+        case '+':
+            k=(N1+N2);
+            cout<<setprecision(2)<<fixed<<k;
+                break;
+        case '-':
+            l=(N1-N2);
+            cout<<setprecision(2)<<fixed<<l;
+                break;
+        case '*':
+            m=(N1*N2);
+            cout<<setprecision(2)<<fixed<<m;
+                break;
+        case '/':
+            if(N2==0)
+            {
+                cout<<"-2.00";
+            }
+            else
+            {
+            n=(N1/N2);
+            cout<<setprecision(2)<<fixed<<n;
+            }
+            break;
+        default:
+            cout<<"-1.00";
+            break;
+    }
+    return 0;
+}
